@@ -1,0 +1,23 @@
+{
+    "name": "rcs_us/php-json",
+    "type": "library",
+    "description": "Wrapper for PHP's Native JSON encode/decode that provides very specific exceptions and details as to what is wrong with the JSON.",
+    "keywords": ["php", "json", "exception"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthew Rice",
+            "email": "mrice@rcs.us",
+            "homepage": "https://www.rcs.us",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "^5.2 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "RCS\\": "src"
+        }
+    }
+}
