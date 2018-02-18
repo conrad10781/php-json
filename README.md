@@ -81,4 +81,3 @@ Possible Exceptions to catch
 13. \RCS\JsonEncodeErrorSyntaxException ( extends \RCS\JsonEncodeException )
 14. \RCS\JsonEncodeErrorUtf8Exception ( extends \RCS\JsonEncodeException )
 15. \RCS\JsonEncodeErrorUnknownException ( extends \RCS\JsonEncodeException )
-
